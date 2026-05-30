@@ -26,20 +26,28 @@ app.get("/api/profile", (req, res) => {
             "JavaScript",
             "Cloud Computing (Vercel & Render)",
             "Networking (Cisco Packet Tracer)",
-            "Machine Learning"
+            "Machine Learning",
+            "Data Science",
+            "Data Analysis"
         ],
         projects: [
             {
                 name: "Crop Disease Detection",
-                description: "AI-powered system for detecting cassava and maize diseases offline."
+                description: "AI-powered system for detecting cassava and maize diseases offline using machine learning image classification models.",
+                tech: ["Python", "Machine Learning", "AI"],
+                link: "https://github.com/KAFULA-ANALYST"
             },
             {
                 name: "Office Network Design",
-                description: "Network design using Cisco Packet Tracer."
+                description: "Professional office network design and simulation using Cisco Packet Tracer, covering routing, switching and IP addressing.",
+                tech: ["Networking", "Cisco Packet Tracer"],
+                link: "https://github.com/KAFULA-ANALYST"
             },
             {
                 name: "Portfolio Website",
-                description: "Full-stack portfolio deployed using Vercel and Render."
+                description: "Full-stack personal portfolio with a JavaScript frontend deployed on Vercel and a Node.js/Express backend deployed on Render.",
+                tech: ["JavaScript", "Vercel", "Render"],
+                link: "https://github.com/KAFULA-ANALYST"
             }
         ],
         social: {
